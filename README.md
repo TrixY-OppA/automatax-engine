@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ AutomataX Engine
+# AutomataX Engine
 
 **High-Performance Regex-to-DFA Compiler & State Visualizer**
 *Guaranteed O(n) Linear-Time Matching | ReDoS Immune | Theoretical Automata from Scratch*
@@ -14,7 +14,7 @@
 
 ---
 
-## 💡 Overview
+## Overview
 
 Standard backtracking regex engines (like standard Python `re`, JavaScript RegExp, PCRE) suffer from exponential time complexity $\mathcal{O}(2^n)$ on non-deterministic ambiguous patterns—making them vulnerable to **Catastrophic Backtracking / Regular Expression Denial of Service (ReDoS)**.
 
@@ -27,7 +27,7 @@ Standard backtracking regex engines (like standard Python `re`, JavaScript RegEx
 
 ---
 
-## 🏛️ Architecture Pipeline
+## Architecture Pipeline
 
 ```
 Infix Regex: (a|b)*c
@@ -49,7 +49,7 @@ Linear O(n) Engine                    Graphviz Engine
 
 ---
 
-## ⚡ Performance: ReDoS Immunity Benchmark
+## Performance: ReDoS Immunity Benchmark
 
 Testing against the classic evil catastrophic backtracking regex pattern `(a+)+b` evaluated against non-matching repetitive payload `a^30 + 'X'`:
 
@@ -60,7 +60,7 @@ Testing against the classic evil catastrophic backtracking regex pattern `(a+)+b
 
 ---
 
-## 🖥️ CLI Usage & Real-time Trace
+## CLI Usage & Real-time Trace
 
 ### 1. Match Payload with Live State Traversal
 
@@ -95,7 +95,7 @@ State Traversal Path: q0 -> q2 -> q3 -> q2 -> q3 -> q1
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Test Suite
+## Test Suite
 
 Run the full unit test suite, parser verification, and ReDoS benchmarks:
 
@@ -145,6 +145,6 @@ pytest -v -s
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
