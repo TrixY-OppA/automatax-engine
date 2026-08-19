@@ -74,8 +74,8 @@ python -m src.main -p "(a|b)*c" -t "ababc" -v
 AutomataX Security & Automata Engine        You, 3 minutes ago • Uncommitted changes
 
 Compilation Summary
-
-| Property          | Value              |
+ _________________________________________
+| Property           | Value              |
 |--------------------|--------------------|
 | Infix Regex        | (a|b)*c            |
 | Postfix Expression | ab|*c.             |
