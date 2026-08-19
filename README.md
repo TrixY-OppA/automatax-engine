@@ -3,7 +3,7 @@
 # ⚡ AutomataX Engine
 
 **High-Performance Regex-to-DFA Compiler & State Visualizer**
-*Guaranteed $O(n)$ Linear-Time Matching | ReDoS Immune | Theoretical Automata from Scratch*
+*Guaranteed O(n) Linear-Time Matching | ReDoS Immune | Theoretical Automata from Scratch*
 
 [![CI Pipeline](https://github.com/TrixY-OppA/automatx-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/TrixY-OppA/automatx-engine/actions)
 ![Python Version](https://img.shields.io/badge/Python-3.9%20%7C%203.11%20%7C%203.14-blue?logo=python&logoColor=white)
